@@ -3,7 +3,7 @@ html {
   }
   
   body {
-   background: pink;
+  background: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,6 +51,9 @@ html {
   }
   
   .panel {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
     z-index: 1;
     padding: 40px;
     background: rgba( 255, 154, 154, 0.10 );
@@ -58,5 +61,5 @@ html {
     backdrop-filter: blur( 10.5px );
     -webkit-backdrop-filter: blur( 10.5px );
     border-radius: 20px;
-    position: fixed;
+    
   }

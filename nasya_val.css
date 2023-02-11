@@ -46,7 +46,7 @@ background-color: red;
 
 h1, h2 {
   color: white;
-  position: relative;
+  position: absolute;
 }
 
 .panel {
